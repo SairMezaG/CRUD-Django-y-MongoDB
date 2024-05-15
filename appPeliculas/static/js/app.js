@@ -2,7 +2,7 @@
 
 function eliminarPelicula(id){
     Swal.fire({
-        title: "¿Está seguro que desea ELIMINAR esta Película?",
+        title: "¿Está seguro que desea ELIMINAR esta Película de la Base de Datos?",
         showDenyButton: true,
         confirmButtonText: "SI",
         denyButtonText: "NO",
@@ -49,7 +49,7 @@ function eliminarPelicula(id){
 
 function eliminarGenero(objectId) {
     Swal.fire({
-        title: "¿Está seguro que desea ELIMINAR este Género?",
+        title: "¿Está seguro que desea ELIMINAR este Género de la Base de Datos?",
         showDenyButton: true,
         confirmButtonText: "SI",
         denyButtonText: "NO",
